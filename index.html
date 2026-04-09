@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Pricing Logic</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form>
+        <h1>Banking withdrawal</h1>
+        <label for="pricePurchase">Enter the price of your purchase</label>
+        <input id="pricePurchase" type="number" placeholder="$">
+
+        <label for="haveCoupon">Do you have a coupon?</label>
+        <select name="coupon" id="haveCoupon">
+            <option value= true >Yes</option>
+            <option value= false >No</option>
+        </select>
+
+        <button type="button" onclick="verifyWithdrawal()">Calculate</button>
+
+        <p id="totalAmount"></p>
+    </form>
+    
+    <script src="js/logic.js"></script>
+</body>
+</html>
+ 
