@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: linear-gradient(135deg, #e60d0d, rgb(247, 247, 165));
+    background: linear-gradient(135deg, #000000, #c99710, #c99710, #000000);
     height: 100vh;
     display: flex;
     justify-content: center;

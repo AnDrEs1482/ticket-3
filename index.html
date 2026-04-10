@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Delivery Pricing Logic</title>
+    <title>Discount Engine</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <form>
-        <h1>Banking withdrawal</h1>
-        <label for="pricePurchase">Enter the price of your purchase</label>
-        <input id="pricePurchase" type="number" placeholder="$">
+        <h1>Discount Engine</h1>
+        <label for="purchasePrice">Enter the price of your purchase</label>
+        <input id="purchasePrice" type="number" placeholder="$">
 
-        <label for="haveCoupon">Do you have a coupon?</label>
-        <select name="coupon" id="haveCoupon">
+        <label for="hasCoupon">Do you have a coupon?</label>
+        <select name="coupon" id="hasCoupon">
             <option value= true >Yes</option>
             <option value= false >No</option>
         </select>
 
         <button type="button" onclick="verifyWithdrawal()">Calculate</button>
 
-        <p id="totalAmount"></p>
+        <p id="finalPrice"></p>
     </form>
     
     <script src="js/logic.js"></script>
